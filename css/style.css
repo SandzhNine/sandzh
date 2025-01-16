@@ -1299,12 +1299,39 @@ input[type="text"] {
   top: 0px;
   width: 100%;
   height: 100%;
-  z-index: 9999;
+  z-index: 9;
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
 .js .animate-box {
   opacity: 0;
 }
+
+.fh5co-social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center; /* Untuk menyelaraskan ikon ke tengah */
+    gap: 15px; /* Jarak antar ikon */
+}
+
+.fh5co-social-icons li {
+    display: inline-block;
+}
+
+.fh5co-social-icons i {
+    font-size: 30px; /* Ukuran ikon */
+    color: #fff; /* Warna ikon */
+    transition: color 0.3s ease-in-out;
+}
+
+.fh5co-social-icons a {
+  text-decoration: none; /* Hilangkan garis bawah */
+  display: inline-block; /* Pastikan elemen berfungsi sebagai blok klik */
+  padding: 10px; /* Tambahkan padding agar area klik lebih besar */
+  transition: color 0.3s ease-in-out; /* Efek transisi saat hover */
+}
+
 
 /*# sourceMappingURL=style.css.map */
